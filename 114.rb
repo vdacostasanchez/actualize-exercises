@@ -21,7 +21,7 @@ puts z
 mars = 4               # Make a variable called mars and set the value to 4
 mars = 2 * mars        # Multiply the value mars by 2. mars is now equal to 8
 pluto = 7              # Make a variable called pluto and set the value to 7
-mars = mars - pluto    # The value of pluto is substracted from mars and placed into mars again.
-pluto = pluto + mars   # The value of the subtraction result plus the value of pluto is placed into pluto. 
+mars = mars - pluto    # The value of pluto is substracted from mars and placed into mars again. mars is equeal to 1
+pluto = pluto + mars   # The value of the subtraction result plus the value of pluto is placed into pluto. pluto is equal to 8
 puts mars              # The value of mars is printed out. 
 puts pluto             # The value of pluto is printed out. 

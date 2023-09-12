@@ -9,17 +9,17 @@ puts "hello" * 3
 # Read the code below and predict which lines will crash. 
 # Then run the code and remove the invalid lines one at a time, until only the valid code remains.
 puts 9 + 3 #this line works
-puts "9" + 3  #NO 
-puts 9 + "3" #NO 
+#puts "9" + 3  #NO 
+#puts 9 + "3" #NO 
 puts "9" + "3" #this line works
 puts 9 - 3 #this line works
-puts "9" - 3 #NO 
-puts 9 - "3" #NO 
+#puts "9" - 3 #NO 
+#puts 9 - "3" #NO 
 puts 9 * 3 #this line works
 puts "9" * 3 #this line works
-puts 9 * "3" #NO
-puts "9" * "3" #NO 
+#puts 9 * "3" #NO
+#puts "9" * "3" #NO 
 puts 9 / 3 #this line works
-puts "9" / 3 #NO 
-puts 9 / "3" #NO 
-puts "9" / "3" #NO 
+#puts "9" / 3 #NO 
+#puts 9 / "3" #NO 
+#puts "9" / "3" #NO 

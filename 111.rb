@@ -17,7 +17,6 @@ Puts 40 - 10
 puts 3 * 4
 puts 8 / 2
 
-# ADD HERE THE ERROR MESSAGE THAT SHOWS WHEN THE CODE IS RAN 
 #983 
 #<anonymous>': eval:7:in `<main>': undefined method `Puts' for main:Object (NoMethodError)
 

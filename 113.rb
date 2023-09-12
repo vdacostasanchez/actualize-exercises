@@ -12,10 +12,10 @@ puts var1 + var2 + var3
 # Find the invalid variable names and delete the special characters 
 # (be sure to leave the special characters in the valid variable names alone).
 bob7 = 50 #Valid
-7bob = 50 #Valid
-bob@ = 50 #Valid
+7bob = 50 #This is not a valid variable name
+bob@ = 50 #This is not a valid variable name
 @bob = 50 #This is not a valid variable name
 bob_ = 50 #Valid
 _bob = 50 #Valid
-bob$ = 50 #Valid
+bob$ = 50 #This is not a valid variable name
 $bob = 50 #This is not a valid variable name
