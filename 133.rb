@@ -1,7 +1,6 @@
 # QUESTION 1
 # Write a program that uses a while loop to print the numbers from 1 to 20.
 # If the number is 7 or 15, it should also print out "Hey, that's my lucky number!"
-
 number = 1
 while number <= 20
   if number == 7
@@ -25,7 +24,6 @@ while 2 > number       # 2 6 9
   number = number + 1  # 5 8
 end
 puts "Done!"           # 10
-
 # 1: number is 0
 # 2: (2 is greater than 0, continue)
 # 3: (0 is less than 1, go to if)
