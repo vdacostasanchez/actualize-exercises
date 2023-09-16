@@ -3,7 +3,7 @@
 # If the number is 7 or 15, it should also print out "Hey, that's my lucky number!"
 
 number = 1
-while number < 20
+while number <= 20
   if number == 7
     puts number.to_s + ". Hey, that's my lucky number!"
   elsif number == 15
