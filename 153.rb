@@ -18,7 +18,7 @@ pp my_cat
 # The following code has several mistakes that cause it to crash and not run properly.
 # Fix the mistakes to make sure the code runs properly.
 #class StoreItem
-#    def new(input_name, input_price) cannot have the new here because it is a command used later
+#    def new(input_name, input_price) in order to be a class it must have an initialize method
 #      @name = input_name
 #      @price = input_price
 #    end
