@@ -36,7 +36,7 @@ class Person
     end
   
     def get_name
-      return @name #You have to add the @
+      return @name #You have to add the @ for it to work
     end
   end
   person = Person.new("Shawn", 42, "accountant")
