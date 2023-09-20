@@ -2,9 +2,9 @@
 # Paste a deliberate practice question you are currently working on below.
 # Write the code to solve the problem without looking at any notes or other resources.
 #Create an array to store 1 number. Then add three more numbers to the array and print the array on one line
-array = [1]
+array = [0]
 number = 1
-while number < 4
+while number <= 4
     array[number] = number 
     number = number + 1
 end 
