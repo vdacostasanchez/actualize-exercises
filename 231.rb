@@ -12,5 +12,7 @@ pp numbers
 # Were you able to easily solve the problem from memory?
 # If so, describe the next skill you will start to practice tomorrow.
 # If not, describe the part you got stuck on that requires more practice.
-
+#My code did what the instructions were asking but in a larger amount of lines
+#doing it with the push command, your have fewer lines and the code works as well.
+#I need to understand more of the commands for arrays and be able to apply them. 
 
