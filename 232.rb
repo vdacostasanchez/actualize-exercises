@@ -16,7 +16,7 @@ while count > 10 #To print the numbers through 10 the condition should be less t
 end
 #Correct code 
 count = 0
-while count <= 10
-    puts count
+while count < 10
     count = count + 1
+    puts count
 end 
