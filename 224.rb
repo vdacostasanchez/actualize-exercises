@@ -75,32 +75,32 @@ if apple > carrot
         p 1
     else
         p 2
-    if banana == 2
+      if banana == 2
         p 3
-    else
+      else
         p 4
-    end
+      end
     end
 elsif apple == carrot
     if apple > 1
         p 5
     else
         p 6
-    if banana == 2
+      if banana == 2
         p 7
-    else
+      else
         p 8
-    end
+      end
     end
 else
     if apple > 1
         p 9
     else
         p 10
-    if banana == 2
+      if banana == 2
         p 11
-    else
+      else
         p 12
-    end
+      end
     end
 end
