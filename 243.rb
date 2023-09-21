@@ -4,12 +4,15 @@
 product = {"name" => "Jacket", "price" => 49.99, "color" => "red"}
 puts product["name"] # the output is Jacket
 puts product["price"] # the output is 49.99
+product = {name: "Jacket", price: 49.99, color: "red"}
+puts product[:name] # the output is Jacket
+puts product[:price] # the output is 49.99
 
 
 # QUESTION 2
 # The following code is supposed to add a new item to an existing hash,
 # but it has mistakes that cause the code to crash.
 # Find and fix the errors with the code.
-fruits = { coconut: 1, apple: 2, banana: 3 }
-fruits.push(pears: 3)
-pp fruits
+#fruits = { coconut: 1, apple: 2, banana: 3 }
+#fruits.push(pears: 3)
+#pp fruits
