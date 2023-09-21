@@ -30,3 +30,8 @@ people = [
     "hobbies" => ["cricket", "baking", "stamp collecting"]
    }
 ]
+index = 0
+while index < 3
+    pp people[index]["hobbies"]
+    index = index + 1
+end 
