@@ -8,5 +8,14 @@
 # Write a class called Shoe that stores attributes for name, color, and price.
 # Then make an instance of a shoe and print out the details using `pp`.
 # (Note: for this problem, just make the initialize method in the class, no other methods needed)
+class Shoe
+    def initialize(input_name, input_color, input_price)
+        @input_name
+        @input_color
+        @input_price 
+    end
+end
+shoe = Shoe.new("boot", "black", 45)
+pp shoe
 
 
