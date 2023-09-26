@@ -4,3 +4,5 @@
 # Follow this document to improve your LinkedIn profile strength to at least Intermediate:
 #     https://docs.google.com/document/d/1df31q78ZlLuv-1sCQw-p61p-6Tfewf8seuQ5XhE99pM 
 # Paste the link to your LinkedIn profile below.
+
+# https://www.linkedin.com/in/valeria-d-acosta-953b8b213
