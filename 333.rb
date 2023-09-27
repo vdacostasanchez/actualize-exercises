@@ -10,3 +10,22 @@
 # Note: If you run the code p 9 / 2, it prints 4 even though the result should be 4.5. 
 # This is because when dividing integers in Ruby, the result will be an integer. 
 
+#Ask the user for the five numbers 
+puts "Enter five numbers separated by a space: (Ex: '12 43 32 9 20')"
+numbers_string = gets.chomp
+#Need to convert from string to array
+numbers = numbers_string.split(//)
+#Create a while loop to go through all of them
+# average is sum divided by parts, so need to find the sum of them together first 
+sum = 0
+index = 0
+while index < numbers.length 
+    if numbers[index] != " "
+        sum += numbers[index].to_i
+    end 
+    index += 1
+end 
+#Find average, if they input integers it will be a whole number
+average = sum.to_f / 5.0
+p average.round(2)
+
