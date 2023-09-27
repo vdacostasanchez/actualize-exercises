@@ -4,7 +4,7 @@ numbers = [5, 4, 2, 2, 6, 8, 1]
 sum = 0
 index = 0
 while index < numbers.length
-    sum = sum + numbers[index]
+    sum += numbers[index]
     index += 1
 end 
 puts sum
