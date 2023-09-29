@@ -100,7 +100,6 @@ def roman_numerals(number)
         800 => "DCCC",
         900 => "CM",
         1000 => "M",
-        1001 => "MI",
     }
     roman_number = chart[number]
     return roman_number
@@ -117,7 +116,7 @@ tens = hundreds_r / 10
 tens_r = hundreds_r % 10
 ones = tens_r / 1
 
-#puts "#{thous} and #{hundreds} and #{tens} and #{ones}"
+#puts "#{thous} and #{hundreds} and #{tens} and #{ones}j"
 puts "#{roman_numerals(thous * 1000)}#{roman_numerals(hundreds * 100)}#{roman_numerals(tens * 10)}#{roman_numerals(ones)} is your number is roman numerals"
 
 
