@@ -18,4 +18,39 @@
 # Instead you'll write code to go through the array two items at a time 
 # to accomplish the same thing.
 
+#Compare items in an array 
+# array_numbers = [6, 5, 3, 1, 8, 7, 2, 4]
+# if array_numbers[2] == 3
+#     puts "Yay"
+# end 
 
+#compare items in an array using a loop
+# array_numbers = [6, 5, 3, 1, 8, 7, 2, 4]
+# index = 0
+# while index < array_numbers.length
+#     if array_numbers[index] == 3
+#         puts "Yay"
+#     end 
+#     index += 1
+# end
+
+#Run the loop to keep going un
+array_numbers = [6, 5, 3, 1, 8, 7, 2, 4]
+while true
+    index = 0
+    repetition = 0
+    while index < (array_numbers.length - 1)
+        if array_numbers[index + 1] < array_numbers[index]
+            temporary = array_numbers[index]
+            array_numbers[index] = array_numbers[index + 1]
+            array_numbers[index + 1] = temporary
+        else 
+            repetition += 1
+        end 
+        index += 1
+    end
+    if repetition == (array_numbers.length - 1)
+        break
+    end
+end
+pp array_numbers
