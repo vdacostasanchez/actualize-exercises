@@ -35,7 +35,7 @@
 # end
 
 #Run the loop to keep going un
-array_numbers = [6, 5, 3, 1, 8, 7, 2, 4]
+array_numbers = [30, 1, 6, 4, 24, 3, 7, 5]
 while true
     index = 0
     repetition = 0
