@@ -13,7 +13,7 @@ index = 0
 while index < array.length
     author = array[index][:author]
     title = array[index][:title]
-    if hash[author] == nil
+    if hash[author] == nil #Needed to add this for the titles to be in arrays.
         hash[author] = []
     end
     hash[author] << title
