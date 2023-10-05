@@ -9,7 +9,7 @@ I18n.locale = :en                        # sets the locale to English
 Money.default_currency = "USD"           # set the default currency to be USD 
 Money.add_rate("CAD", "USD", 0.8)        # Sets the rate, 1 CAD is equal to 0.8 USD
 
-money1 = Money.new(1000)                 # new Money variable set to 1000 USD
-money2 = Money.new(500, "CAD")           # new Money variable set to 500 CAD
+money1 = Money.new(1000)                 # new Money variable set to 10 USD
+money2 = Money.new(500, "CAD")           # new Money variable set to 5 CAD
 result = money1 + money2                 # adds the two monetary values using the rate
 puts "Total: #{result}"                  # prints the total amount
