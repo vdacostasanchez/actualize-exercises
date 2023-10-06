@@ -10,5 +10,5 @@ puts first_letter("Hello")
 # Were you able to easily solve the problem from memory?
 # If so, describe the next skill you will start to practice tomorrow.
 # If not, describe the part you got stuck on that requires more practice.
-
+#I was able to do it from memory, will work on more complex methods 
 
