@@ -5,11 +5,8 @@
 # Instead of crashing with a normal error message, the program should instead
 # print "You cannot divide by zero" to the terminal.
 
-def division(number)
-return 4/number
+begin 
+    div = 10/0
 rescue ZeroDivisionError
     puts "You cannot divide by zero"
 end
-
-numbers = 0
-p division(numbers)
