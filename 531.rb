@@ -2,22 +2,15 @@
 # Paste a deliberate practice question you are currently working on below.
 # Write the code to solve the problem without looking at any notes or other resources.
 class Song
+    attr_reader :name, :artist, :duration
+    attr_writer :name, :artist, :duration
     def initialize(input_name, input_artist, input_duration)
         @name = input_name
         @artist = input_artist
         @duration = input_duration
     end 
-    def print_name(input_name)
-        return @name
-    end
-    def print_artist(input_artist)
-        return @artist
-    end 
-    def print_duration(input_duration)
-        return @duration
-    end 
-    def sentence(input_name, input_artist, input_duration)
-        return "#{print_name(input_name)} by #{print_artist(input_artist)}, and it is #{print_duration(input_duration)} long"
+    def sentence 
+        puts "#{name} by #{artist}, has a duration of #{duration} long"
     end 
 end 
 
