@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header {
+    background-image: url(https://i.pinimg.com/1200x/05/a2/28/05a228c0cd1a1024723616e6028d7718.jpg);
+    background-position: center top;
+    background-size: cover;
+    text-align: center;
+}
+header a {
+    padding-bottom: 2em;
+}
+a {
+    color: orange;
+}
+h1 {
+    text-align: center;
+    padding-top: 1em;
+    color: rgb(111, 72, 45);
+}
+main {
+    max-width: 50em;
+    margin: 0 auto;
+}
+h2 {
+    color: rgb(111, 72, 45);
+}
+p {
+    color: rgb(144, 94, 58);
+}
+footer {
+    text-align: center;
+    background-image: url(https://i.pinimg.com/1200x/05/a2/28/05a228c0cd1a1024723616e6028d7718.jpg);
+    background-position: center top;
+    background-size: cover;
+    padding: 2vw 2em;
+}
